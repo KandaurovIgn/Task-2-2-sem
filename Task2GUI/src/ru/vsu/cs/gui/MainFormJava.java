@@ -70,7 +70,7 @@ public class MainFormJava {
                 labelWord.setText("/Completed/");
             } catch (IOException e) {
                 e.printStackTrace();
-                labelWord.setText("/Can't write on this file/");
+                labelWord.setText("/Can't write in this file/");
             }
         });
     }
